@@ -1,0 +1,99 @@
+* {
+  background: #e5e5e5;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 150%;
+}
+
+:root {
+  --cor-botoes: #0a3871;
+  --cor-texto: white;
+}
+
+.logoalura {
+  margin-left: 0.5rem;
+  padding-top: 1rem;
+  width: 5%;
+}
+
+main {
+  display: flex;
+  margin-bottom: 5rem;
+  margin-left: 3.125rem;
+}
+
+.text-area {
+  border: 1px solid var(--cor-botoes);
+  border-radius: 1rem;
+  color: var(--cor-botoes);
+  margin-top: 5.625rem;
+  text-transform: lowercase;
+  padding: 1rem;
+}
+
+::placeholder {
+  color: var(--cor-botoes);
+}
+.text-area:focus {
+  outline: none;
+}
+
+.mensagem {
+  background: var(--cor-texto);
+  border: 1px solid var(--cor-botoes);
+  border-radius: 1rem;
+  color: var(--cor-botoes);
+  margin-left: 5.625rem;
+  margin-top: 5.625rem;
+  padding-left: 1.25rem;
+  display: flex;
+  width: 1426px;
+  height: 450px;
+  background-image: url(./assets/personagem.png);
+  background-repeat: no-repeat;
+}
+
+.botoes {
+  display: flex;
+  margin-top: 1.125rem;
+  border-radius: 1.125rem;
+}
+
+.botao-desencriptar {
+  background: #d8dfe8;
+  border: 1px solid var(--cor-botoes);
+  border-radius: 1.5rem;
+  color: var(--cor-botoes);
+  cursor: pointer;
+  height: 4.25rem;
+  margin-left: 1.875rem;
+  width: 20.5rem;
+}
+
+.botao-encriptar {
+  background-color: var(--cor-botoes);
+  border: 1px solid var(--cor-botoes);
+  border-radius: 1.5rem;
+  color: var(--cor-texto);
+  cursor: pointer;
+  height: 4.25rem;
+  width: 20.5rem;
+}
+
+.botao-copiar {
+  border: 1px solid var(--cor-botoes);
+  border-radius: 1.5rem;
+  color: var(--cor-botoes);
+  cursor: pointer;
+  height: 4.25rem;
+  margin-left: 6.75rem;
+  margin-top: 12.5rem;
+  width: 20.5rem;
+  position: absolute;
+}
+
+.info {
+  color: #495057;
+  font-size: 1.125rem;
+}
